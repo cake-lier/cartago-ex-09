@@ -1,18 +1,16 @@
-# JaCaMo Template
+# JaCaMo by exercises — Exercise 09 — Java data-binding
 
-A template repository for creating new JaCaMo-based applications.
+In this exercise, you'll need to work with a "Plain Old Java Object" (POJO, for short).
+This object is a simple counter that can start counting from zero by default or by another value if given.
+It can then be incremented, and it can return its value.
+It can also return the name of its class as a static method.
+You are asked to instantiate an object from the "Counter"
+class representing these objects, both with and without an initial value.
+In both cases, you need to call the "increment" method passing the amount by which increment,
+and the "getCount" method for getting the actual count value.
+In the end, you need to call on the class the method for returning the name of itself.
+The CArtAgO library offers you some internal actions to instantiate objects and call class and instance methods.
 
-## What?
+## Solution
 
-Exactly what the title says,
-this is a template repository to create hassle-free JaCaMo applications without starting from scratch.
-You can adjust the "config.jcm" file as you wish to add or remove all the configuration that you need,
-but please **don't** touch the "asl-path", "java-path" and "org-path" properties.
-
-## How to run it?
-
-You can use Gradle to run it,
-either using the Gradle wrapper in the repository or using the Gradle tool installed on your system.
-You don't even need to specify the task name; the default one will launch your application.
-But if you really need to know it, for example, for running it after pressing the "play" button on your preferred IDE,
-add the **run** task to your configurations and see the magic happen!
+All solution files are marked with the "solution" suffix, don't open them before solving the exercise!
