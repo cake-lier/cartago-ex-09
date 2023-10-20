@@ -1,4 +1,4 @@
-# JaCaMo by exercises — Exercise 09 — Java data-binding
+# CArtAgO by exercises — Exercise 09 — Java data-binding
 
 In this exercise, you'll need to work with a "Plain Old Java Object" (POJO, for short).
 This object is a simple counter that can start counting from zero by default or by another value if given.
